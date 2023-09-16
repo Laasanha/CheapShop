@@ -1,0 +1,118 @@
+
+@font-face{
+  font-family: Pixel;
+  src: url(DeterminationMonoWebRegular-Z5oq.ttf);
+}
+
+@font-face {
+  font-family: Pixel2;
+  src: url(8bitoperator-jve-undertale-dialogue-font.ttf);
+}
+
+
+html {
+  height: 100%;
+  background-color: #000000;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+div{
+  border-color: white;
+  border-style: solid;
+  border-width: 6px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background:black;
+
+}
+
+div1{
+  max-width: 50%;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 2.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image:
+  conic-gradient(at calc(100% - 2px) calc(100% - 2px),green 270deg, #0000 0);
+  background-size: 25% 25%, 20px 20px;
+  border-color: green;
+  border-style: solid;
+  border-width: 2px;
+}
+
+img{
+ max-width: 50%;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+h1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  font-family: Pixel2;
+  font-weight: lighter;
+  font-size: 200%;
+  color:white;
+}
+
+a{text-decoration: none;
+color:white;}
+
+.vertical-menu{
+  
+  color:white;
+  font-size: 250%;
+  font-family: Pixel;
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: lighter;
+
+
+}
+
+.vertical-menu :hover{
+   color:black;
+  background-color: white;
+}
+
+.options{
+
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  font-family: Pixel2;
+  font-size: 160%;
+  padding-bottom: 2%;
+
+}
+.options :hover{
+  color:black;
+  background-color: white;
+}
+
+
