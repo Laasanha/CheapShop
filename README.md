@@ -1,2 +1,4 @@
 # CheapShop
- FrontEnd_Study
+ FrontEnd_Study 
+ 
+There's nothing here, it's just me trying to create a website.
